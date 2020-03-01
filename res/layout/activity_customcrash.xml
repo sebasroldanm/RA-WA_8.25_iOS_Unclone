@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/customactivityoncrash_activity_horizontal_margin" android:paddingTop="@dimen/customactivityoncrash_activity_vertical_margin" android:paddingRight="@dimen/customactivityoncrash_activity_horizontal_margin" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yowav" />
+            <com.whatsapp.yo.tf android:textSize="14.0sp" android:textStyle="bold" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:text="@string/myna" />
+            <ImageView android:id="@id/customactivityoncrash_error_activity_image" android:background="@drawable/ic_backup_error" android:paddingTop="@dimen/customactivityoncrash_activity_vertical_margin" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+            <TextView android:textSize="18.0sp" android:textStyle="bold" android:gravity="center" android:paddingBottom="@dimen/customactivityoncrash_activity_vertical_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/customactivityoncrash_activity_vertical_margin" android:text="@string/error_unexpected" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/yoMods" android:onClick="startYoMods" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/resetThemes" android:onClick="resetPrefs" />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/acjrestart" android:onClick="yoRestart" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

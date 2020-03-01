@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:robobunny="http://robobunny.com"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Actionbar">
+        <SwitchPreference android:title="@string/yoName" android:key="my_name" android:summary="@string/yoNameSum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/disablestatus" android:key="my_statusd" android:summary="@string/disablestatusSum" android:dependency="my_name" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/toolbar_a" android:key="tittle_bold" android:summary="@string/toolbar_b" android:dependency="my_name" android:defaultValue="false" />
+        <com.whatsapp.yo.SeekBarPreference android:max="40" android:title="@string/toolbar4_a" android:key="tittle_size" android:summary="@string/toolbar4_b" android:defaultValue="18" robobunny:min="1" robobunny:unitsLeft="" robobunny:unitsRight="sp" />
+        <SwitchPreference android:title="@string/showAirplaneMode" android:key="yo_want_airplanemode" android:summary="@string/showAirplaneModeS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/disableHiddenAccess" android:key="disable_hiddenchat_access" android:summary="@string/disableHiddenAccessSum" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Tabs">
+        <com.whatsapp.yo.ColorPref android:title="@string/pagerColor" android:key="ModConColor" android:summary="@string/pagerColorS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/tabPagerTitle" android:key="pagetitle_picker" android:summary="@string/tabPagerTitleS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/selected_tabPagerTitle" android:key="pagetitle_sel_picker" android:summary="@string/selected_tabPagerTitleS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/unread_counter" android:key="tabadgeBKColor" android:summary="@string/unread_counterS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/unread_textcounter" android:key="tabadgeTextColor" android:summary="@string/unread_textcounterS" />
+        <SwitchPreference android:title="@string/ra_navtab" android:key="hiden_nav" android:summary="@string/ra_navtabb" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

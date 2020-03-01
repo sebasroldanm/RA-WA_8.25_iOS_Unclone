@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_marginLeft="-12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.kharis.Image.background_TB android:gravity="left" android:layout_gravity="left" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:layout_marginLeft="-50.0dip" />
+    <androidx.appcompat.widget.Toolbar android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/Toolbar">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+            <com.whatsapp.BidiToolbar android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" android:layout_weight="1.0" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/Toolbar" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+</FrameLayout>

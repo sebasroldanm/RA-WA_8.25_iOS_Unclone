@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:paddingTop="8.0dip" layout="@layout/ra_callist" />
+    <com.whatsapp.WaTextView android:textColor="@color/accent" android:paddingLeft="20.0dip" android:paddingTop="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/whocancall" />
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:textColor="#ff000000" android:id="@id/seeeme" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/privacy_everyone" />
+        <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RadioButton android:textColor="#ff000000" android:id="@id/my_contacts_btn" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/select_status_recipients_my_contacts" />
+        <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RadioButton android:textColor="#ff000000" android:id="@id/black_list_btn" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/select_status_recipients_black_list" />
+        <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RadioButton android:textColor="#ff000000" android:id="@id/white_list_btn" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/select_contacts" />
+        <View android:background="@drawable/divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <RadioButton android:textColor="#ff000000" android:id="@id/div2" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/privacy_nobody" />
+    </RadioGroup>
+</LinearLayout>

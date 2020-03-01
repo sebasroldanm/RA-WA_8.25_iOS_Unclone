@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="2.0dip" android:text="@string/data_settings_title_usage" style="?settingsSectionTitleText" />
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_network_usage" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="15.0dip" android:paddingRight="24.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="@color/RaSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_network_usage" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+            <com.whatsapp.WaTextView android:textColor="@color/RaSettingSub" android:id="@id/setting_network_usage_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_storage_usage" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="15.0dip" android:paddingRight="24.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="@color/RaSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_storage_usage" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+            <com.whatsapp.WaTextView android:textColor="@color/RaSettingSub" android:id="@id/setting_storage_usage_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+        </LinearLayout>
+        <View style="@style/SettingsDivider" />
+        <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="2.0dip" android:text="@string/settings_autodownload" style="?settingsSectionTitleText" />
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_autodownload_cellular" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="15.0dip" android:paddingRight="24.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="@color/RaSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_autodownload_cellular" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+            <com.whatsapp.WaTextView android:textColor="@color/RaSettingSub" android:id="@id/setting_selected_autodownload_cellular" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_autodownload_wifi" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="15.0dip" android:paddingRight="24.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="@color/RaSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_autodownload_wifi" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+            <com.whatsapp.WaTextView android:textColor="@color/RaSettingSub" android:id="@id/setting_selected_autodownload_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/setting_autodownload_roaming" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="15.0dip" android:paddingRight="24.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.whatsapp.WaTextView android:textColor="@color/RaSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_autodownload_roaming" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+            <com.whatsapp.WaTextView android:textColor="@color/RaSettingSub" android:id="@id/setting_selected_autodownload_roaming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+        </LinearLayout>
+        <View style="@style/SettingsDivider" />
+        <com.whatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="2.0dip" android:text="@string/settings_calls_data_usage" style="?settingsSectionTitleText" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/settings_calls_low_data" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="15.0dip" android:paddingRight="25.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+                <com.whatsapp.WaTextView android:textColor="@color/RaSetting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_voip_low_data_usage_title" android:maxLines="1" android:singleLine="true" style="?settingsTitleText" />
+                <com.whatsapp.WaTextView android:textColor="@color/RaSettingSub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_calls_low_data_summary" android:maxLines="1" android:singleLine="true" style="?settingsSubtitleText" />
+            </LinearLayout>
+            <androidx.appcompat.widget.SwitchCompat android:id="@id/low_data_calls_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

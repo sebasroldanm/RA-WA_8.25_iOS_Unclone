@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.FabView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kharis.Fab.fab.FloatingActionMenu android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.kharis.Fab.fab.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_boomtext" android:onClick="ping" />
+        <com.kharis.Fab.fab.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_boomping" android:onClick="boom" />
+    </com.kharis.Fab.fab.FloatingActionMenu>
+</com.whatsapp.FabView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cmwmobile="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.yo.YoFontListPreference android:entries="@array/fonts_names" android:title="@string/customfont" android:key="font" android:summary="@string/customfont_sum" android:defaultValue="0" android:entryValues="@array/fonts_names" />
+    <ListPreference android:entries="@array/em_set" android:title="@string/em_set" android:key="em_set" android:summary="@string/em_setS" android:defaultValue="yousef" android:entryValues="@array/em_setV" />
+    <SwitchPreference android:title="@string/oldEmoji" android:key="oldemoji" android:summary="@string/oldEmojiS" android:defaultValue="false" />
+    <Preference android:title="@string/launchericons" android:key="acjicons" android:summary="@string/launchericonsSum" />
+    <com.whatsapp.yo.ImageListPreference android:entries="@array/yo_niconss" android:title="@string/yoNicon" android:key="yo_nicons" android:summary="@string/yoNiconSum" android:defaultValue="0" android:entryValues="@array/yo_niconsv" cmwmobile:entryImages="@array/yo_niconsi" />
+</PreferenceScreen>

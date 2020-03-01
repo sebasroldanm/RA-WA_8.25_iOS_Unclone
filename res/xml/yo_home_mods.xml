@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <com.whatsapp.yo.SeekBarPreference android:max="100" android:title="@string/square_photo_ratio" android:key="square_photo_ratio_picker" android:summary="@string/square_photo_ratio_summary" android:defaultValue="100" robobunny:min="1" robobunny:unitsLeft="" robobunny:unitsRight="r" />
+    <com.whatsapp.yo.SeekBarPreference android:max="200" android:title="@string/ra_count" android:key="key_badge_size" android:summary="@string/ra_countsum" android:defaultValue="52" robobunny:min="1" robobunny:unitsLeft="" robobunny:unitsRight="dp" />
+    <Preference android:title="@string/ra_effect_snow" android:summary="@string/ra_effect_snow_b">
+        <intent android:targetPackage="com.whatsapp" android:targetClass="com.nthoell.listview.ListViewPreference" />
+    </Preference>
+    <SwitchPreference android:title="@string/igStories" android:key="enable_ig_stories" android:summary="@string/igStoriesSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/group_a" android:key="hiden_group" android:summary="@string/group_b" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoHideDiv" android:key="Hide_div" android:summary="@string/yoHideDivS" android:defaultValue="false" />
+    <PreferenceCategory android:title="Toast Online">
+        <SwitchPreference android:title="@string/yoOnlineTo" android:key="chats_show_contact_online_toast_check" android:summary="@string/yoOnline" android:defaultValue="false" />
+        <com.whatsapp.yo.ColorPref android:title="@string/toastbg_a" android:key="yoTostC" android:summary="@string/toastbg_b" />
+        <com.whatsapp.yo.ColorPref android:title="@string/toastt_a" android:key="yoTostT" android:summary="@string/toastt_b" />
+        <RingtonePreference android:title="@string/Ringtone" android:key="chats_play_contact_online_tone" android:summary="@string/RingtoneS" android:defaultValue="" android:ringtoneType="notification" android:showDefault="true" android:showSilent="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

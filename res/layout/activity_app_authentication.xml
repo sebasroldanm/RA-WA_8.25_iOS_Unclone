@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/app_auth_layout_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.WaImageView android:layout_width="@dimen/app_auth_lock_icon_size" android:layout_height="@dimen/app_auth_lock_icon_size" android:layout_marginTop="@dimen/app_auth_lock_icon_margin_top" android:src="@drawable/ic_wa_locked" app:tint="@color/app_auth_lock_icon" />
+    <com.whatsapp.WaTextView android:textSize="@dimen/app_auth_title_text_size" android:textColor="@color/settings_item_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/app_auth_title_margin_top" android:text="@string/app_auth_locked_title" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <com.whatsapp.FingerprintView android:id="@id/fingerprint_view" android:padding="@dimen/fingerprint_view_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

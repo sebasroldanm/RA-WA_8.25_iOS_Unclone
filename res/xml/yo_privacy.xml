@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_privacy" android:summary="@string/yoPrivacySum"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/yoHideSeen" android:key="yoHideSeen" android:summary="@string/yoHideSeenSum" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/yoDisableFwd" android:key="yoDisableFwd" android:summary="@string/yoDisableFwdS" android:defaultValue="true" />
+    <Preference android:title="@string/whocancall" android:key="yoCallsPrivacy" android:summary="@string/privacy_everyone" />
+    <Preference android:title="@string/specificPrivacy" android:key="yoCustomPrivList" android:summary="@string/view_contacts_button" />
+    <PreferenceCategory android:title="@string/settings_privacy_status" android:key="stat_cat">
+        <SwitchPreference android:title="@string/yoHideStatusView" android:key="yoHideStatView" android:summary="@string/yoHideStatusViewSum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/yoAntiRevokeStatus" android:key="yoAntiRevokeStatus" android:summary="@string/yoAntiRevokeStatusS" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/chats">
+        <SwitchPreference android:title="@string/yoAntiRevoke" android:key="yoAntiRevoke" android:summary="@string/yoAntiRevokeS" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoBlueOnReply" android:key="yoBlueOnReply" android:summary="@string/yoBlueOnReplyS" android:defaultValue="false" />
+        <Preference android:title="@string/contacts" android:key="cat_pc" android:summary="@string/change_privacy_settings" />
+        <Preference android:title="@string/groups_participation" android:key="cat_pg" android:summary="@string/change_privacy_settings" />
+        <Preference android:title="@string/broadcasts" android:key="cat_pb" android:summary="@string/change_privacy_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ra_toolbar_setting" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/modDon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+            <LinearLayout android:orientation="horizontal" android:background="@null" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_list_padding_top" android:foreground="?android:selectableItemBackground" android:onClick="settingpref">
+                <ImageView android:enabled="false" android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_icon" android:scaleType="fitCenter" android:contentDescription="@string/supportyo" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="24.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.whatsapp.WaTextView android:textSize="16.0sp" android:textColor="#ff333333" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ra_setmore" android:lines="1" style="@style/ListItemTitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modPriv" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yoprivacy" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/yo_settings_privsec" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modThemes" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yothemes" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/yoThemes" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.whatsapp.WaTextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_horizontal" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Personalization" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle.Condensed" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/modUni" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_youniversal" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/acjuniversal" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modHome" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yohome" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/acjcons" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modChat" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yochat" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/acjchat" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/wdg_mod" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yowidget" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/yowa_widget" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.whatsapp.WaTextView android:textSize="28.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:layout_gravity="center_horizontal" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Updates" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle.Condensed" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/settings_divider_text_margin_bottom">
+            <LinearLayout android:orientation="horizontal" android:id="@id/modUpdate" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_youpdate" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/yowaUpdate" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modAbout" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yoabout" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/yo_About" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_leftt" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/modShare" android:background="?android:selectableItemBackground" android:paddingLeft="15.0dip" android:paddingTop="10.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:paddingLeft="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ra_yoshare" android:scaleType="fitCenter" android:contentDescription="@string/acjuniversal" />
+                <com.whatsapp.WaTextView android:text="@string/yoShareSum" style="@style/YoSettings_rowset" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

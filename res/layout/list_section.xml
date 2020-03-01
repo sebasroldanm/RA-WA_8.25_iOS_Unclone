@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?listSectionBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/list_section_divider" style="?listSectionDivider" />
+    <com.whatsapp.WaTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?listSectionTitleText" />
+</FrameLayout>

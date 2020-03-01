@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/payment_settings_default_margin" android:insetRight="@dimen/payment_settings_default_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <size android:height="0.5dip" />
+        <solid android:color="@color/divider_gray" />
+    </shape>
+</inset>

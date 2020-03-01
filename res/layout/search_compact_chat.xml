@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.ThumbnailButton android:layout_gravity="center" android:id="@id/chat_view_contact_photo" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:scaleType="fitCenter" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="@dimen/small_avatar_radius" />
+        <com.whatsapp.TextEmojiLabel android:layout_gravity="center|left" android:id="@id/chat_view_chat_title" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ListItemTitle" />
+    </LinearLayout>
+    <View style="@style/SectionDivider.Thin" />
+</merge>

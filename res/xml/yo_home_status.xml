@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Wa Stories">
+        <com.whatsapp.yo.ColorPref android:title="@string/ra_wastory" android:key="ig_story" android:summary="@string/ra_wastory_b" />
+        <com.whatsapp.yo.ColorPref android:title="@string/ra_namestory" android:key="status_nm" android:summary="@string/ra_namestory_b" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Search">
+        <com.whatsapp.yo.ColorPref android:title="@string/ra_namestoryb" android:key="status_ch" android:summary="@string/ra_namestory_c" />
+        <com.whatsapp.yo.ColorPref android:title="@string/ra_wastoryc" android:key="SearchViw" android:summary="@string/ra_wastory_f" />
+        <com.whatsapp.yo.ColorPref android:title="@string/ra_statusbutton" android:key="Searchikon" android:summary="@string/ra_statusbutton_b" />
+        <com.whatsapp.yo.ColorPref android:title="@string/ra_namestoryd" android:key="status_nw" android:summary="@string/ra_namestory_e" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Statuses">
+        <com.whatsapp.yo.ColorPref android:title="@string/statusesTitleBack" android:key="statuses_bar_bg_picker" android:summary="@string/statusesTitleBackS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/statusesTitleText" android:key="statuses_bar_text_picker" android:summary="@string/statusesTitleTextS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/SeenST" android:key="SeenColor" android:summary="@string/SeenSTS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/UnSeenST" android:key="UnSeenColor" android:summary="@string/UnSeenSTS" />
+        <com.whatsapp.yo.ColorPref android:title="@string/chats_date_pending_mod" android:key="chats_date_pending_color_picker" android:summary="@string/chats_date_pending_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="More">
+        <SwitchPreference android:title="@string/ra_toast_stts" android:key="statuses_toast" android:summary="@string/ra_toast_sttsum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/hidesMStatus" android:key="imsHideMStatus" android:summary="@string/hidesMStatussum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/hidesVStatus" android:key="imsHideVStatus" android:summary="@string/hidesVStatussum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/hideRStatus" android:key="imsHideRStatus" android:summary="@string/hideRstatussum" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/yoFiveMinStatus" android:key="enable_fivminstatus" android:summary="@string/yoFiveMinStatusS" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

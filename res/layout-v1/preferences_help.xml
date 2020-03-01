@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.ui.SettingsRowIconText android:id="@id/faq_preference" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingsRowIconColor="@color/RaSetting" app:settingsRowIconTextIcon="@drawable/ic_settings_help" app:settingsRowIconTextText="@string/settings_faq" style="?settingsRowIconText" />
+        <com.whatsapp.ui.SettingsRowIconText android:id="@id/contact_us_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingsRowIconColor="@color/RaSetting" app:settingsRowIconTextIcon="@drawable/ic_settings_contacts" app:settingsRowIconTextSubText="@string/contact2" app:settingsRowIconTextText="@string/contact1" style="?settingsRowIconText" />
+        <com.whatsapp.ui.SettingsRowIconText android:id="@id/terms_and_privacy_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingsRowIconColor="@color/RaSetting" app:settingsRowIconTextIcon="@drawable/ic_settings_terms_policy" app:settingsRowIconTextText="@string/settings_terms_and_privacy_policy" style="?settingsRowIconText" />
+        <com.whatsapp.ui.SettingsRowIconText android:id="@id/about_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingsRowIconColor="@color/RaSetting" app:settingsRowIconTextIcon="@drawable/ic_settings_info" app:settingsRowIconTextText="@string/settings_about" style="?settingsRowIconText" />
+    </LinearLayout>
+</ScrollView>

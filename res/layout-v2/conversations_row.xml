@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/conversations_row_height"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="@dimen/conversations_row_height" n1:layout_weight="1.0">
+        <RelativeLayout n1:id="@id/contact_row_container" n1:layout_width="fill_parent" n1:layout_height="@dimen/conversations_row_height">
+            <FrameLayout n1:id="@id/contact_selector" n1:layout_width="@dimen/contact_selector_width" n1:layout_height="@dimen/conversations_row_height" n1:layout_alignParentLeft="true">
+                <com.nthoell.ThumbnailHolder n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" />
+            </FrameLayout>
+            <com.whatsapp.SelectionCheckView n1:id="@id/selection_check" n1:layout_width="@dimen/selection_check_image_size" n1:layout_height="@dimen/selection_check_image_size" n1:layout_marginLeft="@dimen/selection_check_margin_left" n1:layout_marginTop="33.0dip" n1:layout_alignParentLeft="true" />
+            <LinearLayout n1:orientation="vertical" n1:paddingRight="@dimen/list_row_padding" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_toRightOf="@id/contact_selector" n1:layout_centerVertical="true">
+                <com.whatsapp.components.ConversationListRowHeaderView n1:orientation="horizontal" n1:id="@id/conversations_row_header" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="2.0dip">
+                    <LinearLayout n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                        <com.whatsapp.TextEmojiLabel n1:layout_gravity="start|center" n1:id="@id/conversations_row_contact_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/ListItemTitle" />
+                    </LinearLayout>
+                    <com.whatsapp.WaTextView n1:textSize="@dimen/conversation_date_size" n1:textColor="@color/list_item_sub_title" n1:ellipsize="end" n1:gravity="right" n1:layout_gravity="center_vertical" n1:id="@id/conversations_row_date" n1:paddingLeft="4.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:singleLine="true" n1:textAllCaps="true" />
+                </com.whatsapp.components.ConversationListRowHeaderView>
+                <com.whatsapp.yo.tf n1:textSize="12.0sp" n1:textColor="@color/primary" n1:layout_gravity="right" n1:id="@id/conversations_contact_status" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="-5.0dip" n1:layout_marginBottom="-3.0dip" />
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+                    <ImageView n1:layout_gravity="center_vertical" n1:id="@id/status_indicator" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="1.0dip" n1:scaleType="center" />
+                    <LinearLayout n1:gravity="left" n1:layout_gravity="center|left" n1:orientation="horizontal" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                        <com.whatsapp.TextEmojiLabel n1:gravity="left" n1:layout_gravity="center|left" n1:id="@id/msg_from_tv" n1:paddingRight="1.0dip" n1:paddingBottom="2.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+                        <ImageView n1:gravity="left" n1:layout_gravity="center|left" n1:id="@id/media_indicator" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="1.0dip" n1:layout_marginRight="4.0dip" n1:scaleType="fitStart" />
+                        <com.whatsapp.payments.ui.PaymentsIconView n1:gravity="left" n1:layout_gravity="center|left" n1:id="@id/payments_indicator" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="1.0dip" n1:layout_marginRight="4.0dip" />
+                        <FrameLayout n1:layout_gravity="center|left" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:layout_weight="1.0">
+                            <com.whatsapp.TextEmojiLabel n1:layout_gravity="center|left" n1:id="@id/single_msg_tv" n1:paddingRight="7.0dip" n1:paddingBottom="2.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" style="@style/ListItemSubtitle" />
+                        </FrameLayout>
+                    </LinearLayout>
+                    <ImageView n1:layout_gravity="center_vertical" n1:id="@id/live_location_indicator" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" n1:src="@drawable/ic_inline_live_location_tealgreen" n1:scaleType="fitStart" n1:contentDescription="@string/conversation_sharing_live_location" />
+                    <ImageView n1:layout_gravity="center_vertical" n1:id="@id/mute_indicator" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" n1:src="@drawable/ic_inline_mute" n1:scaleType="fitStart" n1:contentDescription="@string/menuitem_mute_notifications" whatsapp:tint="@color/msgStatusTint" whatsapp:tintMode="src_in" />
+                    <com.whatsapp.yo.tf n1:textSize="12.0sp" n1:textColor="@color/archived" n1:layout_gravity="center_vertical" n1:id="@id/archived_indicator" n1:background="@drawable/archived_background" n1:paddingLeft="4.0dip" n1:paddingTop="2.0dip" n1:paddingRight="4.0dip" n1:paddingBottom="2.0dip" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" n1:text="@string/conversation_archived" />
+                    <com.whatsapp.WaImageView n1:layout_gravity="center_vertical" n1:id="@id/mention_mark" n1:background="@drawable/tab_badge_background_inactive" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" n1:src="@drawable/yo_mention" n1:scaleType="fitStart" n1:minWidth="21.0dip" n1:minHeight="21.0dip" />
+                    <ProgressBar n1:layout_gravity="center" n1:id="@id/progressbar_small" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" style="?android:progressBarStyleSmallInverse" />
+                    <ImageView n1:layout_gravity="center_vertical" n1:id="@id/pin_indicator" n1:visibility="gone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" n1:src="@drawable/ic_inline_pin" n1:scaleType="fitStart" n1:contentDescription="@string/menuitem_pin" />
+                    <com.whatsapp.yo.tf n1:textSize="10.5sp" n1:textStyle="bold" n1:textColor="@android:color/white" n1:gravity="center" n1:layout_gravity="center_vertical" n1:id="@id/conversations_row_message_count" n1:background="@drawable/new_messages_indicator" n1:paddingLeft="3.0dip" n1:paddingTop="0.0dip" n1:paddingRight="3.0dip" n1:paddingBottom="0.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="4.0dip" n1:minWidth="21.0dip" n1:minHeight="21.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout n1:gravity="center|left" n1:layout_gravity="center|left" n1:orientation="vertical" n1:layout_width="25.0dip" n1:layout_height="wrap_content" n1:layout_centerVertical="true">
+        <com.kharis.Image.ChevronC n1:gravity="center|left" n1:layout_gravity="center|left" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/chevron_chat" n1:layout_weight="1.0" n1:layout_centerVertical="true" />
+    </LinearLayout>
+</LinearLayout>

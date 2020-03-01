@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View style="@style/SectionDivider.Heavy" />
+            <include android:id="@id/text_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/contacts_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/locations_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/image_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/sticker_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/gif_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/video_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/audio_row" layout="@layout/storage_usage_detail_row" />
+            <include android:id="@id/documents_row" layout="@layout/storage_usage_detail_row" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/storage_usage_detail_manage" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:elevation="6.0dip">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ProgressBar android:layout_gravity="center|right" android:id="@id/storage_usage_detail_progress_bar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+        </FrameLayout>
+        <com.whatsapp.WaTextView android:layout_gravity="center|right" android:id="@id/storage_usage_detail_manage_text" android:text="@string/storage_usage_detail_free_up_space" style="@style/SettingsTextActionButton" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center|right" android:layout_gravity="bottom" android:id="@id/clear_layout" android:paddingLeft="90.0dip" android:paddingRight="18.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:elevation="6.0dip">
+        <com.whatsapp.WaTextView android:id="@id/storage_usage_detail_clear_cancel" android:layout_marginRight="12.0dip" android:text="@string/cancel" style="@style/SettingsTextActionButton" />
+        <com.whatsapp.WaTextView android:id="@id/storage_usage_detail_clear" style="@style/SettingsTextActionButton.Red" />
+    </LinearLayout>
+</LinearLayout>

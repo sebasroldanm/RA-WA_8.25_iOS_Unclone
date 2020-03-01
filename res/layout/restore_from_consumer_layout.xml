@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.WaTextView android:textSize="@dimen/migration_title_size" android:gravity="center" android:id="@id/restore_from_consumer_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="59.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="59.0dip" style="@style/RegistrationTitle" />
+    <com.whatsapp.WaTextView android:textSize="@dimen/migration_subtitle_size" android:textColor="@color/registration_light_gray" android:gravity="center" android:id="@id/restore_from_consumer_sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="29.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="29.0dip" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@id/restore_from_consumer_background_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.whatsapp.gdrive.GoogleDriveRestoreAnimationView android:layout_gravity="center" android:id="@id/restore_from_consumer_animation_view" android:layout_width="300.0dip" android:layout_height="wrap_content" app:gDriveRestoreFromIcon="@drawable/graphic_migration_wa" app:gDriveRestoreStraightLoadingAnimation="true" app:gDriveRestoreToIcon="@drawable/graphic_migration_wa_business" />
+    </FrameLayout>
+    <com.whatsapp.components.Button android:layout_gravity="bottom|center" android:id="@id/restore_from_consumer_action_btn" android:visibility="gone" android:text="@string/retry" style="@style/WA.Button" />
+    <com.whatsapp.WaTextView android:textSize="@dimen/migration_subtitle_size" android:textColor="@color/registration_light_gray" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/restore_from_consumer_bottom_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="31.0dip" android:layout_marginRight="31.0dip" android:layout_marginBottom="20.0dip" />
+</LinearLayout>

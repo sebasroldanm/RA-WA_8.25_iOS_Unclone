@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Media">
+        <SwitchPreference android:icon="@drawable/images_hide" android:title="@string/settings_autodownload_images" android:key="yohide_inimages" />
+        <SwitchPreference android:icon="@drawable/video_hide" android:title="@string/settings_autodownload_videos" android:key="yohide_invideos" />
+        <SwitchPreference android:icon="@drawable/gif_hide" android:title="@string/storage_usage_detail_gifs" android:key="yohide_ingifs" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Help">
+        <Preference android:icon="@drawable/ill_backup_restore" android:title="@string/reset" android:key="yohide_mediashow" android:summary="@string/abc_activity_chooser_view_see_all" />
+        <Preference android:title="If media still does not show in gallery" android:summary="RESTART your phone" />
+    </PreferenceCategory>
+</PreferenceScreen>

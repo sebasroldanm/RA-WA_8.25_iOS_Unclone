@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="center" />
+            <TextView android:textSize="0.0sp" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Camera" />
+        </LinearLayout>
+        <com.kharis.menuju.Kameron android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="center" />
+            <TextView android:textSize="0.0sp" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chats" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="center" />
+            <TextView android:textSize="0.0sp" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Status" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="center" />
+            <TextView android:textSize="0.0sp" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calls" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="center" />
+            <TextView android:textSize="0.0sp" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Settings" />
+        </LinearLayout>
+        <com.kharis.menuju.setting android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

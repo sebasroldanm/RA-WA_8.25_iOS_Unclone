@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.biz.catalog.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:arflAspectRatio="@dimen/product_catalog_detail_aspect_ratio"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.ThumbnailButton android:id="@id/catalog_detail_image_0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/business_product_catalog_image_description"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</com.whatsapp.biz.catalog.AspectRatioFrameLayout>

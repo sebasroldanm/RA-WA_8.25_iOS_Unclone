@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/contact_photo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.whatsapp.ThumbnailButton android:layout_gravity="center" android:id="@id/contact_photo" android:layout_width="@dimen/call_avatar_view_photo" android:layout_height="@dimen/call_avatar_view_photo" android:layout_margin="@dimen/call_avatar_view_elevation" android:src="@drawable/avatar_contact_call" android:scaleType="fitCenter" whatsapp:tbtnBorderColor="#32ffffff" whatsapp:tbtnBorderSize="0.0dip" whatsapp:tbtnForegroundOnly="false" whatsapp:tbtnRadius="48.0dip" whatsapp:tbtnShowShadow="true" />
+        <com.whatsapp.WaImageView android:layout_gravity="bottom|center|right" android:id="@id/whatsapp_icon" android:layout_width="@dimen/call_avatar_view_whatsapp_icon" android:layout_height="@dimen/call_avatar_view_whatsapp_icon" android:layout_marginRight="@dimen/call_avatar_view_whatsapp_icon_margin" android:layout_marginBottom="@dimen/call_avatar_view_whatsapp_icon_margin" android:src="@mipmap/icon" android:rotation="-10.0" />
+    </FrameLayout>
+</merge>

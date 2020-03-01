@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Snow" />
+    <CheckBoxPreference android:title="@string/salju_b" android:key="salju" android:summary="@string/salju_f" android:defaultValue="true" />
+    <SeekBarPreference android:max="15" android:progress="5" android:title="@string/salju_c" android:key="intensitas" android:defaultValue="5" />
+    <SeekBarPreference android:max="120" android:progress="16" android:title="@string/salju_d" android:key="speed" android:defaultValue="16" />
+    <ListPreference android:entries="@array/labels_animasi" android:title="@string/salju_e" android:key="animation_drawable" android:summary="%s" android:defaultValue="0" android:entryValues="@array/values_animasi" />
+    <PreferenceCategory android:title="Listview" />
+    <Preference android:title="@string/ra_effect">
+        <intent android:targetPackage="com.whatsapp" android:targetClass="com.nthoell.listview.ListViewPreference" />
+    </Preference>
+    <PreferenceCategory android:title="Apply Settings" />
+    <Preference android:title="@string/salju_res" android:key="restart_bbm" android:summary="@string/salju_res_b" />
+</PreferenceScreen>

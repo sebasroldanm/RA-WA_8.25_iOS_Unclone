@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ra_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_google_play" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="@string/donations__google_android_market" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yoplaystore" app:drawableStartCompat="@drawable/ic_yoplaystore" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_paypal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="@string/donations__paypal" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yopaypal" app:drawableStartCompat="@drawable/ic_yopaypal" style="@style/YoSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.whatsapp.WaTextView android:text="Cryptocurrency" style="@style/YoSettings_row_title" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_bitcoin" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="Bitcoin" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yocrypto_btc" app:drawableStartCompat="@drawable/ic_yocrypto_btc" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_eth" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="Ethereum" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yocrypto_eth" app:drawableStartCompat="@drawable/ic_yocrypto_eth" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_bch" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="Bitcoin Cash" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yocrypto_bch" app:drawableStartCompat="@drawable/ic_yocrypto_bch" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_xmr" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="Monero" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yocrypto_xmr" app:drawableStartCompat="@drawable/ic_yocrypto_xmr" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_dash" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="Dash" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yocrypto_dash" app:drawableStartCompat="@drawable/ic_yocrypto_dash" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="@dimen/settings_divider_horizontal_margin_left" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/support_ltc" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="Litecoin" android:drawablePadding="@dimen/settings_row_horizontal_padding" app:drawableLeftCompat="@drawable/ic_yocrypto_ltc" app:drawableStartCompat="@drawable/ic_yocrypto_ltc" style="@style/YoSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

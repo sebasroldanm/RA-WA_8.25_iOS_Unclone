@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.biz.catalog.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:arflAspectRatio="@dimen/product_catalog_detail_aspect_ratio"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.whatsapp.biz.catalog.AspectRatioFrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" app:arflAspectRatio="1.2">
+            <com.whatsapp.ThumbnailButton android:id="@id/catalog_detail_image_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/business_product_catalog_image_description" />
+        </com.whatsapp.biz.catalog.AspectRatioFrameLayout>
+        <Space android:layout_width="4.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.whatsapp.ThumbnailButton android:id="@id/catalog_detail_image_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_weight="1.0" android:contentDescription="@string/business_product_catalog_image_description" />
+            <Space android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_weight="0.0" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <com.whatsapp.ThumbnailButton android:id="@id/catalog_detail_image_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/business_product_catalog_image_description" />
+                <com.whatsapp.WaTextView android:textSize="32.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/catalog_detail_image_more_overlay" android:background="@color/catalog_detail_more_overlay_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.whatsapp.biz.catalog.AspectRatioFrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.kharis.Image.background_IG android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="102.0dip" android:layout_marginTop="-2.0dip">
+            <com.nthoell.home.TextViewer android:layout_gravity="center|left|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip">
+                <com.kharis.Text.TabText android:textSize="32.0sp" android:textStyle="bold" android:textColor="#ff000000" android:paddingLeft="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ra_call" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle.Condensed" />
+            </com.nthoell.home.TextViewer>
+        </com.kharis.Image.background_IG>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.nthoell.listview.ListView android:id="@android:id/list" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" style="@style/HomeActivityList" />
+            <FrameLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:textSize="17.0sp" android:textColor="@color/secondary_text" android:gravity="center" android:layout_gravity="center" android:id="@id/welcome_calls_message" android:paddingLeft="32.0dip" android:paddingTop="96.0dip" android:paddingRight="32.0dip" android:paddingBottom="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Text" />
+                <com.whatsapp.WaTextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:id="@id/search_no_matches" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="96.0dip" />
+                <FrameLayout android:id="@id/calls_empty_no_contacts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/contacts_empty_permission_denied" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/init_calls_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
+            </FrameLayout>
+            <FrameLayout android:gravity="bottom|center|right" android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="59.0dip">
+                <include layout="@layout/home_fab_call" />
+            </FrameLayout>
+            <com.whatsapp.FabView2 android:gravity="bottom|center|right" android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="59.0dip">
+                <com.whatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_delete_call" android:onClick="FABClearcll" style="@style/WA.FAB" />
+            </com.whatsapp.FabView2>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

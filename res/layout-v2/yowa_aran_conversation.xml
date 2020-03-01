@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.KeyboardPopupLayout android:id="@id/conversation_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/attach_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <com.whatsapp.wallpaper.WallPaperView android:id="@id/conversation_background" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_above="@android:id/list" android:transitionName="@string/transition_clipper_top" />
+    <com.whatsapp.ConversationListView android:id="@android:id/list" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:layout_above="@id/footer" android:layout_below="@id/group_description" android:layout_alignWithParentIfMissing="true" android:fastScrollEnabled="false" style="@style/List" />
+    <View android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@android:id/list" android:transitionName="@string/transition_clipper_bottom" />
+    <com.whatsapp.yo.tf android:id="@id/date_divider_header" android:visibility="gone" android:layout_alignTop="@android:id/list" android:layout_alignParentTop="false" style="@style/DateDivider" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/banner_container" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/call_notification" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/group_description" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/voice_recorder_decor" android:background="#00000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/next_important_message" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="46.0dip" android:layout_above="@id/scroll_bottom" android:layout_alignParentRight="true">
+        <com.kharis.Image.BgScroll android:layout_gravity="bottom|center" android:paddingTop="6.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fast_scroll_circle" />
+        <com.kharis.Image.ScrollAD android:layout_gravity="bottom|center" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/group_catchup_scroll" android:scaleType="center" />
+        <com.kharis.Text.TeksTolbar android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/important_badge" android:background="@null" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="16.0sp" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/scroll_bottom" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="12.0dip" android:layout_width="56.0dip" android:layout_height="58.0dip" android:layout_alignBottom="@android:id/list" android:layout_alignParentRight="true">
+        <com.kharis.Image.BgScroll android:layout_gravity="bottom|center" android:paddingTop="6.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fast_scroll_circle" />
+        <com.kharis.Image.ScrollAD android:layout_gravity="bottom|center" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fast_scroll_arrow_down" android:scaleType="center" />
+    </FrameLayout>
+    <com.whatsapp.TextEmojiLabel android:textSize="13.0sp" android:textStyle="normal" android:textColor="@color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/conversation_contact_global_status" android:background="#44000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:lines="1" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever" />
+    <include layout="@layout/activity_fab_conv" />
+    <include layout="@layout/yowa_aran_conversation_entry" />
+    <View android:id="@id/footer_size" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_alignTop="@id/footer" android:layout_alignBottom="@id/footer" />
+    <FrameLayout android:id="@id/mention_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="-5.0dip" android:layout_above="@id/footer" />
+    <FrameLayout android:id="@id/quick_reply_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="-5.0dip" android:layout_above="@id/footer" android:layout_marginStart="4.0dip" />
+    <ViewStub android:id="@id/away_message_reminder_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/proximity_overlay" android:background="#f0000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/call_notification" android:background="@drawable/call_duration_bar_background" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="16.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.yo.tf android:textSize="17.0sp" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_return_to_call" android:layout_toLeftOf="@id/call_notification_timer" android:layout_alignParentLeft="true" />
+        <com.whatsapp.yo.tf android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/call_notification_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:textAllCaps="true" />
+    </RelativeLayout>
+</com.whatsapp.KeyboardPopupLayout>

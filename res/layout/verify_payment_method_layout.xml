@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/settings_divider" android:layout_width="fill_parent" android:layout_height="@dimen/settings_divider_height" android:layout_marginLeft="72.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/primary_surface" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="72.0dip" android:layout_height="wrap_content">
+            <com.whatsapp.WaImageView android:layout_gravity="center" android:id="@id/verify_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_secure" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingRight="24.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.whatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/settings_item_subtitle_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verify_payment_card_message" />
+            <com.whatsapp.components.Button android:id="@id/verify_card_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/verify_card" style="@style/WA.Button.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
