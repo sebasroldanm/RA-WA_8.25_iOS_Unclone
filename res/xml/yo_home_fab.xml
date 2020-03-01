@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Fab Bomb Text">
+        <SwitchPreference android:title="@string/fab_hide" android:key="hiden_fab" android:summary="@string/fab_hide_b" android:defaultValue="false" />
+        <com.whatsapp.yo.ColorPref android:title="@string/acj_fab_normal" android:key="ModFabColor" android:summary="@string/acj_fab_normal_sum" />
+        <com.whatsapp.yo.ColorPref android:title="@string/acj_fab_icons" android:key="ModFabText" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Fab Home Screen">
+        <SwitchPreference android:title="@string/HideFAB" android:key="hide_fab" android:defaultValue="false" />
+        <com.whatsapp.yo.ColorPref android:title="@string/acj_fab_normal" android:key="ModFabNormalColor" android:summary="@string/acj_fab_normal_sum" />
+        <com.whatsapp.yo.ColorPref android:title="@string/acj_fab_pressed" android:key="ModFabPressedColor" android:summary="@string/acj_fab_pressed_sum" />
+        <com.whatsapp.yo.ColorPref android:title="@string/acj_fab_bg" android:key="ModFabBgColor" android:summary="@string/acj_fab_bg_sum" />
+        <com.whatsapp.yo.ColorPref android:title="@string/acj_fab_icons" android:key="ModFabTextColor" />
+        <Preference android:title="@string/acj_fab_bg_pos" android:key="acj_fab_anim_pos" android:summary="@string/acj_fab_bg_anim_sum" />
+        <SwitchPreference android:title="@string/hide_actionm" android:key="hide_action_m" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/hide_actionb" android:key="hide_action_b" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/hide_actionl" android:key="hide_action_l" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/hide_actiona" android:key="hide_action_a" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Aktiverad efter %d minuter</item>
+        <item quantity="one">Aktiverad efter %d minut</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Efter %d minuter</item>
+        <item quantity="one">Efter %d minut</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Ta bort media från dessa chattar</item>
+        <item quantity="one">Ta bort media från denna chatt</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d kontakter uteslutna</item>
+        <item quantity="one">‎%d kontakt utesluten</item>
+    </plurals>
+</resources>

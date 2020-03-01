@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d ನಿಮಿಷಗಳ ನಂತರ ಸಕ್ರಿಯಗೊಂಡಿದೆ</item>
+        <item quantity="one">‎%d ನಿಮಿಷದ ನಂತರ ಸಕ್ರಿಯಗೊಂಡಿದೆ</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d ನಿಮಿಷಗಳ ನಂತರ</item>
+        <item quantity="one">‎%d ನಿಮಿಷದ ನಂತರ</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">ಈ ಸಂಭಾಷಣೆಗಳಲ್ಲಿನ ಮಾಧ್ಯಮವನ್ನು ಅಳಿಸಿ</item>
+        <item quantity="one">ಈ ಸಂಭಾಷಣೆಯಲ್ಲಿನ ಮಾಧ್ಯಮವನ್ನು ಅಳಿಸಿ</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d ಸಂಪರ್ಕಗಳನ್ನು ಹೊರತುಪಡಿಸಲಾಗಿವೆ</item>
+        <item quantity="one">‎%d ಸಂಪರ್ಕವನ್ನು ಹೊರತುಪಡಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">ನಿಮ್ಮ ಪಾವತಿ ಖಾತೆ ಅಥವಾ ಚಟುವಟಿಕೆಯ ಬಗ್ಗೆ ನಿಮಗೆ ಹಲವಾರು ನೋಟಿಫಿಕೇಶನ್‌ಗಳು ಇವೆ.</item>
+        <item quantity="one">ನಿಮ್ಮ ಪಾವತಿ ಖಾತೆ ಅಥವಾ ಚಟುವಟಿಕೆಯ ಬಗ್ಗೆ ನಿಮಗೆ ಒಂದು ನೋಟಿಫಿಕೇಶನ್ ಇದೆ.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ಪ್ರಯತ್ನಗಳು ಉಳಿದಿವೆ</item>
+        <item quantity="one">‎%d ಪ್ರಯತ್ನ ಉಳಿದಿದೆ</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">ಬಾಕಿಯಿರುವ ವಿನಂತಿಗಳು</item>
+        <item quantity="one">ಬಾಕಿಯಿರುವ ವಿನಂತಿ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.KeyboardPopupLayout n1:id="@id/conversation_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <View n1:id="@id/attach_anchor" n1:layout_width="0.0dip" n1:layout_height="0.0dip" />
+    <com.whatsapp.wallpaper.WallPaperView n1:id="@id/conversation_background" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:scaleType="centerCrop" />
+    <View n1:id="@id/transition_clipper_top" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_above="@android:id/list" />
+    <com.whatsapp.ConversationListView n1:id="@android:id/list" n1:background="@null" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:listSelector="#00000000" n1:transcriptMode="disabled" n1:cacheColorHint="#00000000" n1:layout_above="@id/footer" n1:layout_below="@id/group_description" n1:layout_alignWithParentIfMissing="true" n1:fastScrollEnabled="false" style="@style/List" />
+    <View n1:id="@id/transition_clipper_bottom" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_below="@android:id/list" />
+    <com.whatsapp.yo.tf n1:id="@id/date_divider_header" n1:visibility="gone" n1:layout_alignTop="@android:id/list" n1:layout_alignParentTop="false" style="@style/DateDivider" />
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/banner_container" n1:background="@android:color/white" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_below="@id/call_notification" />
+    <FrameLayout n1:orientation="horizontal" n1:id="@id/group_description" n1:background="@android:color/white" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <FrameLayout n1:id="@id/voice_recorder_decor" n1:background="#00000000" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <include layout="@layout/activity_fab_conv" />
+    <include layout="@layout/theme_conversation_old_stock_entry" />
+    <View n1:id="@id/footer_size" n1:layout_width="0.0dip" n1:layout_height="fill_parent" n1:layout_alignTop="@id/footer" n1:layout_alignBottom="@id/footer" />
+    <FrameLayout n1:id="@id/mention_attach" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginBottom="-5.0dip" n1:layout_above="@id/footer" />
+    <FrameLayout n1:id="@id/quick_reply_attach" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="4.0dip" n1:layout_marginBottom="-5.0dip" n1:layout_above="@id/footer" />
+    <FrameLayout n1:id="@id/next_important_message" n1:paddingLeft="2.0dip" n1:paddingRight="2.0dip" n1:visibility="gone" n1:layout_width="56.0dip" n1:layout_height="46.0dip" n1:layout_above="@id/scroll_bottom" n1:layout_alignParentRight="true">
+        <com.kharis.Image.BgScroll n1:layout_gravity="bottom|center" n1:paddingTop="6.0dip" n1:paddingRight="2.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/fast_scroll_circle" />
+        <com.kharis.Image.ScrollAD n1:layout_gravity="bottom|center" n1:padding="6.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/group_catchup_scroll" n1:scaleType="center" />
+        <com.kharis.Text.TeksTolbar n1:textSize="16.0sp" n1:textStyle="bold" n1:textColor="@color/white" n1:gravity="center" n1:id="@id/important_badge" n1:background="@null" n1:padding="0.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:minWidth="16.0sp" />
+    </FrameLayout>
+    <FrameLayout n1:id="@id/scroll_bottom" n1:paddingLeft="2.0dip" n1:paddingRight="2.0dip" n1:paddingBottom="12.0dip" n1:layout_width="56.0dip" n1:layout_height="58.0dip" n1:layout_alignBottom="@android:id/list" n1:layout_alignParentRight="true">
+        <com.kharis.Image.BgScroll n1:layout_gravity="bottom|center" n1:paddingTop="6.0dip" n1:paddingRight="2.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/fast_scroll_circle" />
+        <com.kharis.Image.ScrollAD n1:layout_gravity="bottom|center" n1:padding="6.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:src="@drawable/fast_scroll_arrow_down" n1:scaleType="center" />
+    </FrameLayout>
+    <com.whatsapp.TextEmojiLabel n1:textSize="13.0sp" n1:textStyle="normal" n1:textColor="@color/white" n1:ellipsize="marquee" n1:gravity="center" n1:id="@id/conversation_contact_global_status" n1:background="#44000000" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:maxLines="1" n1:lines="1" n1:singleLine="true" n1:layout_alignParentTop="true" n1:layout_centerHorizontal="true" n1:marqueeRepeatLimit="marquee_forever" />
+    <ViewStub n1:id="@id/away_message_reminder_viewstub" n1:layout_width="fill_parent" n1:layout_height="wrap_content" />
+    <View n1:id="@id/proximity_overlay" n1:background="#f0000000" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="fill_parent" />
+    <RelativeLayout n1:id="@id/call_notification" n1:background="@drawable/call_duration_bar_background" n1:paddingLeft="16.0dip" n1:paddingTop="8.0dip" n1:paddingRight="16.0dip" n1:paddingBottom="8.0dip" n1:visibility="gone" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <com.whatsapp.yo.tf n1:textSize="17.0sp" n1:textColor="@android:color/white" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/tap_to_return_to_call" n1:layout_toLeftOf="@id/call_notification_timer" n1:layout_alignParentLeft="true" />
+        <com.whatsapp.yo.tf n1:textSize="16.0sp" n1:textColor="@android:color/white" n1:gravity="center_vertical" n1:id="@id/call_notification_timer" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_alignParentRight="true" n1:textAllCaps="true" />
+    </RelativeLayout>
+</com.whatsapp.KeyboardPopupLayout>

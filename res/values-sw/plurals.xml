@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Zitawezeshwa baada ya dakika %d</item>
+        <item quantity="one">Itawezeshwa baada ya dakika %d</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Baada ya dakika %d</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Futa media kwenye soga hizi</item>
+        <item quantity="one">Futa media kwenye soga hii</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">Waasiliani %d hawajawekwa</item>
+        <item quantity="one">Mwasiliani %d hajawekwa</item>
+    </plurals>
+</resources>

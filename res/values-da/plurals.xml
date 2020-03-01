@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Aktiveret efter %d minutter</item>
+        <item quantity="one">Aktiveret efter %d minut</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Efter %d minutter</item>
+        <item quantity="one">Efter %d minut</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Slet medier i disse chats</item>
+        <item quantity="one">Slet medie i denne chat</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d kontakter undtaget</item>
+        <item quantity="one">‎%d kontakt undtaget</item>
+    </plurals>
+</resources>

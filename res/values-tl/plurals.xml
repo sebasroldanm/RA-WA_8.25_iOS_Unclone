@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Pinagana pagkalipas ng %d na minuto</item>
+        <item quantity="one">Pinagana pagkalipas ng %d minuto</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Pagkalipas ng %d na minuto</item>
+        <item quantity="one">Pagkalipas ng %d minuto</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Burahin ang mga media sa mga chat</item>
+        <item quantity="one">Burahin ang mga media sa chat</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d na contact ang ibinukod</item>
+        <item quantity="one">‎%d contact ang ibinukod</item>
+    </plurals>
+</resources>

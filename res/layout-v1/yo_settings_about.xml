@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/ra_toolbar" />
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.whatsapp.WaTextView android:text="@string/yo_About" style="@style/YoSettings_row_title" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.whatsapp.WaTextView android:text="RA WhatsApp iOS" android:drawableLeft="@drawable/ra_about_ikon" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ra_about_ikon" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="82.0dip" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:onClick="openWebsite">
+                <com.whatsapp.WaTextView android:visibility="gone" android:text="@string/view_website" android:drawableLeft="@drawable/ra_about_web" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ra_about_web" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openYT">
+                <com.whatsapp.WaTextView android:text="My Channel" android:drawableLeft="@drawable/ra_about_web" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ra_about_web" style="@style/YoSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/ra_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/settings_divider_text_margin_top">
+            <com.whatsapp.WaTextView android:text="@string/yo_follow" style="@style/YoSettings_row_title" />
+            <LinearLayout android:orientation="horizontal" android:tag="twitter" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialMedia">
+                <com.whatsapp.WaTextView android:text="Facebook" android:drawableLeft="@drawable/ra_about_fb" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ra_about_fb" style="@style/YoSettings_row" />
+            </LinearLayout>
+            <View android:layout_marginLeft="82.0dip" android:layout_marginRight="@dimen/settings_radio_button_text_padding_left" style="@style/FlatCardSeparator" />
+            <LinearLayout android:orientation="horizontal" android:tag="telegram" android:background="?android:selectableItemBackground" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="openSocialMedia">
+                <com.whatsapp.WaTextView android:text="Instagram" android:drawableLeft="@drawable/ra_about_ig" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ra_about_ig" style="@style/YoSettings_row" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/div2" android:background="@drawable/ra_setting" android:padding="@dimen/info_screen_padding" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/settings_divider_text_margin_top" android:foreground="?android:selectableItemBackground">
+            <com.whatsapp.WaTextView android:text="@string/creditsS" android:drawableLeft="@drawable/ra_about_mod" android:drawablePadding="@dimen/settings_row_horizontal_padding" android:drawableStart="@drawable/ra_about_mod" style="@style/YoSettings_row" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ViewFlipper android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inAnimation="@anim/nthoell_txt_a" android:outAnimation="@anim/nthoell_txt_b" android:flipInterval="2500" android:autoStart="true">
+                <com.nthoell.ShimmerTextView android:textSize="16.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RA WhatsApp iOS" android:layout_centerVertical="true" />
+                <com.nthoell.ShimmerTextView android:textSize="16.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unclone Version" android:layout_centerVertical="true" />
+                <com.nthoell.ShimmerTextView android:textSize="16.0sp" android:textStyle="bold" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="By Ridwan Arifin" android:layout_centerVertical="true" />
+                <com.nthoell.ShimmerTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/RaAccent" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Free, Not For Sale!!!" android:layout_centerVertical="true" />
+            </ViewFlipper>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

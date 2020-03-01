@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:gravity="center_vertical" android:id="@id/floating_layout" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.whatsapp.util.FloatingChildLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@android:id/content" android:background="#10000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/content" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+                <com.kharis.Image.Gtw android:gravity="center" android:layout_gravity="center" android:layout_width="193.0dip" android:layout_height="193.0dip" android:src="@drawable/bunder2" />
+                <com.kharis.Image.Gtw4 android:gravity="center" android:layout_gravity="center" android:layout_width="185.0dip" android:layout_height="185.0dip" android:src="@drawable/bunder1" />
+                <com.whatsapp.ThumbnailButton android:gravity="center" android:layout_gravity="center" android:id="@id/picture" android:layout_width="@dimen/pref_profile_photo_size" android:layout_height="@dimen/pref_profile_photo_size" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/profile_photo" whatsapp:tbtnRadius="-1.0dip" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <include layout="@layout/smb_label_scroller_stub" />
+            <View android:id="@id/quick_contact_divider" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <com.whatsapp.WaTextView android:textColor="#ff707070" android:gravity="center" android:id="@id/invite_btn" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/invite" android:textAllCaps="true" style="@style/ActionBarButtonStyle" />
+            <com.kharis.Image.Rounded_2 android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bunder3">
+                <com.kharis.Image.Gtw3 android:ellipsize="end" android:id="@id/message_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_message_quick" android:layout_weight="0.5" android:contentDescription="@string/message_contact" style="@style/ActionBarButtonStyle" />
+                <com.kharis.Image.Gtw3 android:ellipsize="end" android:id="@id/audio_call_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_call_quick" android:layout_weight="0.5" android:contentDescription="@string/audio_call" style="@style/ActionBarButtonStyle" />
+                <com.kharis.Image.Gtw3 android:ellipsize="end" android:id="@id/video_call_btn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_video_call_quick" android:layout_weight="0.5" android:contentDescription="@string/video_call" style="@style/ActionBarButtonStyle" />
+                <com.kharis.Image.Gtw3 android:ellipsize="end" android:id="@id/info_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/ic_action_info_quick" android:layout_weight="0.5" android:contentDescription="@string/info" style="@style/ActionBarButtonStyle" />
+            </com.kharis.Image.Rounded_2>
+            <FrameLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.whatsapp.TextEmojiLabel android:textSize="28.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/name" android:paddingLeft="1.0dip" android:paddingTop="4.0dip" android:paddingRight="1.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </FrameLayout>
+            <com.whatsapp.WaButton android:textColor="@color/accent" android:gravity="center" android:id="@id/direction_btn" android:background="#fff3f3f3" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/get_direction" android:textAllCaps="true" style="@style/ActionBarButtonStyle" />
+        </LinearLayout>
+    </FrameLayout>
+</view>

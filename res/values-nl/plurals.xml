@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Ingeschakeld na %d minuten</item>
+        <item quantity="one">Ingeschakeld na %d minuut</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Na %d minuten</item>
+        <item quantity="one">Na %d minuut</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Media in deze chats verwijderen</item>
+        <item quantity="one">Media in deze chat verwijderen</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d contacten uitgesloten</item>
+        <item quantity="one">‎%d contact uitgesloten</item>
+    </plurals>
+</resources>

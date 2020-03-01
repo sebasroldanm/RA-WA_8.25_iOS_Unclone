@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <DigitalClock android:textSize="62.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.nthoell.DateView android:textSize="24.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="30.0dip" />
+    <CalendarView android:gravity="center" android:layout_gravity="center" android:id="@id/calendarView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:focusedMonthDateColor="@color/RaAccent" />
+    <com.nthoell.ShimmerTextView android:textSize="18.0sp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/ra_gohome" android:layout_centerInParent="true" android:onClick="backto" />
+</LinearLayout>

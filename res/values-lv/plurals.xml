@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Iespējots pēc %d minūtēm</item>
+        <item quantity="one">Iespējots pēc %d minūtes</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Pēc %d minūtēm</item>
+        <item quantity="one">Pēc %d minūtes</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Dzēst multivides failus šajās sarakstēs</item>
+        <item quantity="one">Dzēst multivides failus šajā sarakstē</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d neiekļauti kontakti</item>
+        <item quantity="one">‎%d neiekļauts kontakts</item>
+    </plurals>
+</resources>

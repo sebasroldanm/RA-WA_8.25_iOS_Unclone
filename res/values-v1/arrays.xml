@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversation_style_toolbar">
+        <item>Stock</item>
+        <item>Stock Centered</item>
+        <item>Wamod</item>
+        <item>Wamod Centered</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="home_theme">
+        <item>Home Style V1</item>
+        <item>Home Style V2</item>
+        <item>Home Style V3</item>
+        <item>Home Style V4</item>
+        <item>Home Style V5</item>
+        <item>Home Style DELTA V1</item>
+        <item>Home Style DELTA V2</item>
+        <item>Home Style NAF</item>
+    </string-array>
+    <string-array name="home_theme_values">
+        <item>yousef</item>
+        <item>yowa</item>
+        <item>waca</item>
+        <item>nlmods</item>
+        <item>wamd</item>
+        <item>wamod</item>
+        <item>wanh</item>
+        <item>telegram</item>
+    </string-array>
+    <string-array name="fonts_names">
+        <item>Default</item>
+        <item>Ra Font iOS Regular</item>
+        <item>Ra Font iOS Bold</item>
+        <item>Ra Font Samsung</item>
+        <item>Ra Font Simple1</item>
+        <item>Ra Font Simple2</item>
+        <item>Ra Font Simple3</item>
+        <item>Ra Font Girly1</item>
+        <item>Ra Font Girly2</item>
+        <item>Ra Font Girly3</item>
+        <item>Roboto-Light</item>
+        <item>Roboto-Medium</item>
+        <item>ProductSans</item>
+        <item>FrutigerLTStdRoman</item>
+        <item>Bariol</item>
+        <item>ComicSans</item>
+        <item>BebasNeue</item>
+        <item>Comfortaa</item>
+        <item>Transformers</item>
+        <item>HappyGiraffe</item>
+        <item>Passing_Notes</item>
+        <item>CaviarDreams</item>
+        <item>Raleway</item>
+        <item>BacktoBlack</item>
+        <item>Cheri</item>
+        <item>HaryPotter</item>
+        <item>Courgette</item>
+        <item>MavenPro</item>
+        <item>Pacifico</item>
+        <item>SourceSansPro</item>
+        <item>Satisfy</item>
+        <item>Smoolthan-Thin</item>
+        <item>Helvetica</item>
+        <item>Bryndan-Write</item>
+        <item>Norican-Regular</item>
+        <item>Oswald-Heavy</item>
+        <item>Slate_OnePlus</item>
+        <item>Bauhaus</item>
+        <item>BeStillKnowHB</item>
+        <item>BowBabyFlo</item>
+        <item>Capture_it</item>
+        <item>Donut</item>
+        <item>Fanlovexo</item>
+        <item>MohanadBold(Arabic)</item>
+        <item>Mobily(Arabic)</item>
+        <item>SC_REHAN(Arabic)</item>
+        <item>ALMajd(Arabic)</item>
+        <item>Motken_noqta_ii(Arabic)</item>
+        <item>SC_HANI(Arabic)</item>
+        <item>SC_REHAN(Arabic)</item>
+        <item>Andalus(Arabic)</item>
+        <item>Motla_bold(Arabic)</item>
+        <item>Hacen_Liner_Screen(Arabic)</item>
+        <item>Kufi_moderate(Arabic)</item>
+        <item>Alarabiya(Arabic)</item>
+        <item>Aljazeera(Arabic)</item>
+        <item>Iphone(Arabic)</item>
+        <item>Zaman(Arabic)</item>
+        <item>Hacen_Liner_Screen(Arabic)</item>
+        <item>Kufi_moderate(Arabic)</item>
+        <item>DroidKufi(Arabic)</item>
+        <item>Nekar(Arabic)</item>
+        <item>Mohanad(Arabic)</item>
+        <item>Nekar(Arabic)</item>
+        <item>Rekaa(Arabic)</item>
+    </string-array>
+    <string-array name="em_set">
+        <item>Emoji Stock</item>
+    </string-array>
+    <string-array name="em_setV">
+        <item>yousef</item>
+    </string-array>
+    <string-array name="labels_animasi">
+        <item>Salju</item>
+        <item>Air</item>
+        <item>Daun</item>
+        <item>Bunga</item>
+        <item>Bubble</item>
+        <item>Hujan</item>
+        <item>Rupiah</item>
+        <item>Dolar</item>
+    </string-array>
+    <string-array name="values_animasi">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="type_effects">
+        <item>standard</item>
+        <item>Grow</item>
+        <item>Cards</item>
+        <item>Curl</item>
+        <item>Wave</item>
+        <item>Flip</item>
+        <item>Fly</item>
+        <item>ReverseFly</item>
+        <item>Helix</item>
+        <item>Fan</item>
+        <item>Tilt</item>
+        <item>Zipper</item>
+        <item>Fade</item>
+        <item>Twirl</item>
+        <item>SlideIn</item>
+    </string-array>
+    <string-array name="effects_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">ເປີດນຳໃຊ້ຫຼັງຈາກ %d ນາທີ</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">ຫຼັງຈາກ %d ນາທີ</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">ລຶບມີເດຍໃນການສົນທະນານີ້</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">ບໍ່ລວມ %d ລາຍຊື່ຜູ້ຕິດຕໍ່</item>
+    </plurals>
+</resources>

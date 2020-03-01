@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Aktivizohet pas %d minutash</item>
+        <item quantity="one">Aktivizohet pas %d minute</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Pas %d minutash</item>
+        <item quantity="one">Pas %d minute</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Fshi mediat në këto biseda</item>
+        <item quantity="one">Fshi median në këtë bisedë</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d kontakte të përjashtuara</item>
+        <item quantity="one">‎%d kontakt i përjashtuar</item>
+    </plurals>
+</resources>

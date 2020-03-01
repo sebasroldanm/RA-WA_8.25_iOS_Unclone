@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:id="@id/acjtoolbar" android:background="@color/RaPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minHeight="?actionBarSize" app:navigationContentDescription="@string/abc_action_bar_up_description" app:navigationIcon="@drawable/ra_back" app:theme="@style/Toolbar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="20.0sp" android:textColor="@color/RaActionbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/specificPrivacy" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

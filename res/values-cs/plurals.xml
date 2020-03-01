@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Odblokováno po %d minutách</item>
+        <item quantity="one">Odblokováno po %d minutě</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Po uplynutí %d minut</item>
+        <item quantity="one">Po uplynutí %d minuty</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Smazat média v těchto chatech.</item>
+        <item quantity="one">Smazat média v tomto chatu.</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">Vyloučeno %d kontaktů</item>
+        <item quantity="one">Vyloučen %d kontakt</item>
+        <item quantity="few">Vyloučeny %d kontakty</item>
+    </plurals>
+</resources>

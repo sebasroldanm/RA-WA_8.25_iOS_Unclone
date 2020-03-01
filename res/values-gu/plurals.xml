@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d મિનિટ પછી ચાલુ</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d મિનિટો પછી</item>
+        <item quantity="one">‎%d મિનિટ પછી</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">આ ચેટમાંથી મીડિયા ડિલીટ કરો</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d સંપર્કો બાકાત</item>
+        <item quantity="one">‎%d સંપર્ક બાકાત</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">તમારા પેમેન્ટ એકાઉન્ટ અથવા પ્રવૃત્તિ વિશેની તમારી પાસે અમુક નોટિફિકેશન છે.</item>
+        <item quantity="one">તમારા પેમેન્ટ એકાઉન્ટ અથવા પ્રવૃત્તિ વિશેની તમારી પાસે એક નોટિફિકેશન છે.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d પ્રયત્નો બાકી</item>
+        <item quantity="one">‎%d પ્રયત્ન બાકી</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">બાકી વિનંતીઓ</item>
+        <item quantity="one">બાકી વિનંતી</item>
+    </plurals>
+</resources>

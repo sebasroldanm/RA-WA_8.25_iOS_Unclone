@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/attribution" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/from_facebook_talk_back"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.WaTextView android:textSize="@dimen/attribution_text_size" android:textColor="@color/RaAccent" android:gravity="center" android:paddingBottom="12.0dip" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/from_facebook_attribution" android:maxLines="1" />
+    <com.whatsapp.WaImageView android:gravity="center" android:paddingBottom="@dimen/attribution_bottom_padding" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/facebook_logo" app:tint="@color/RaAccent" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Активиране след %d минути</item>
+        <item quantity="one">Активиране след %d минута</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">След %d минути</item>
+        <item quantity="one">След %d минута</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Изтриване на мултимедийните файлове в тези чатове</item>
+        <item quantity="one">Изтриване на мултимедийните файлове в този чат</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">С изключение на %d контакта</item>
+        <item quantity="one">С изключение на %d контакт</item>
+    </plurals>
+</resources>

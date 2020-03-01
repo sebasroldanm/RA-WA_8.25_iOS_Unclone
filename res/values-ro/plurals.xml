@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Activată după %d de minute</item>
+        <item quantity="one">Activată după %d minut</item>
+        <item quantity="few">Activată după %d minute</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">După %d de minute</item>
+        <item quantity="one">După %d minut</item>
+        <item quantity="few">După %d minute</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Ștergeți fișierele media din aceste conversații</item>
+        <item quantity="one">Ștergeți fișierele media din această conversație</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d de contacte excluse</item>
+        <item quantity="one">‎%d contact exclus</item>
+        <item quantity="few">‎%d contacte excluse</item>
+    </plurals>
+</resources>

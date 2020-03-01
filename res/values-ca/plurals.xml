@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Activat després de %d minuts</item>
+        <item quantity="one">"Activat després d'%d minut"</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Després de %d minuts</item>
+        <item quantity="one">"Després d'%d minut"</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">"Suprimir fitxers multimèdia d'aquests xats"</item>
+        <item quantity="one">"Suprimir fitxer multimèdia d'aquest xat"</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d contactes exclosos</item>
+        <item quantity="one">‎%d contacte exclòs</item>
+    </plurals>
+</resources>

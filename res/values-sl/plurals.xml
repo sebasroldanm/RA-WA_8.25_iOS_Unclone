@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Omogočeno po %d minutah</item>
+        <item quantity="one">Omogočeno po %d minuti</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Po %d minutah</item>
+        <item quantity="one">Po %d minuti</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Izbriši medije v teh klepetih</item>
+        <item quantity="one">Izbriši medije v tem klepetu</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d stikov izvzetih</item>
+        <item quantity="one">‎%d stik izvzet</item>
+        <item quantity="two">‎%d stika izvzeta</item>
+        <item quantity="few">‎%d stiki izvzeti</item>
+    </plurals>
+</resources>

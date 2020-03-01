@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Θα ενεργοποιηθεί μετά από %d λεπτά</item>
+        <item quantity="one">Θα ενεργοποιηθεί μετά από %d λεπτό</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Μετά από %d λεπτά</item>
+        <item quantity="one">Μετά από %d λεπτό</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Διαγραφή πολυμέσων σε αυτές τις συνομιλίες</item>
+        <item quantity="one">Διαγραφή πολυμέσων σε αυτήν τη συνομιλία</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d επαφές εξαιρέθηκαν</item>
+        <item quantity="one">‎%d επαφή εξαιρέθηκε</item>
+    </plurals>
+</resources>

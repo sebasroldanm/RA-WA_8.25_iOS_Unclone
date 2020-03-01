@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/contactpicker_help_row_height">
+        <com.kharis.Image.Anunya android:gravity="center|left" android:layout_gravity="center|left" android:id="@id/image" android:layout_width="@dimen/contact_selector_width_small" android:layout_height="@dimen/contact_picker_avatar_size" android:src="@drawable/ic_share" android:scaleType="center" app:tint="@color/contactPickerIconTint" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.kharis.Text.Anunya android:textSize="18.0sp" android:textColor="@color/list_item_title" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/tell_friends" android:singleLine="true" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Włączona po %d minutach</item>
+        <item quantity="one">Włączona po %d minucie</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Po %d minutach</item>
+        <item quantity="one">Po %d minucie</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Usuń multimedia w tych czatach</item>
+        <item quantity="one">Usuń multimedia w tym czacie</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d kontaktów wykluczonych</item>
+        <item quantity="one">‎%d kontakt wykluczony</item>
+        <item quantity="few">‎%d kontakty wykluczone</item>
+    </plurals>
+</resources>

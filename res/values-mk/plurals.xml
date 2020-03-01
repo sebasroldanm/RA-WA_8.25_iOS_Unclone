@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Вклучено по %d минути</item>
+        <item quantity="one">Вклучено по %d минута</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">По %d минути</item>
+        <item quantity="one">По %d минута</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Избриши ги фајловите во овие разговори</item>
+        <item quantity="one">Избриши ги фајловите во овој разговор</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d контакти исклучено</item>
+        <item quantity="one">‎%d контакт исклучено</item>
+    </plurals>
+</resources>
