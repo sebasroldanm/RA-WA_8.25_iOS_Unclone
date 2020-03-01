@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/mCard" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="72.0dip" android:layout_marginTop="2.0dip" android:layout_marginRight="72.0dip" android:layout_marginBottom="32.0dip" app:cardCornerRadius="23.0dip" app:cardElevation="2.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mLChats" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+                <ImageView android:id="@id/mIChats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_decline_message" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mLStatus" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:layout_weight="1.0">
+                <ImageView android:id="@id/mIStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gosms" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

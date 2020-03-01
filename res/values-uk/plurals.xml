@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Блокувати через %d хвилин</item>
+        <item quantity="one">Блокувати через %d хвилину</item>
+        <item quantity="few">Блокувати через %d хвилини</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Через %d хвилин</item>
+        <item quantity="one">Через %d хвилину</item>
+        <item quantity="few">Через %d хвилини</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Видалити медіафайли в цих бесідах</item>
+        <item quantity="one">Видалити медіафайли в цій бесіді</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">Вилучено контактів: %d</item>
+    </plurals>
+</resources>

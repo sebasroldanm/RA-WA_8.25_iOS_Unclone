@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Didayakan selepas %d minit</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Selepas %d minit</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Padam media dalam sembang ini</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d kenalan dikecualikan</item>
+    </plurals>
+</resources>

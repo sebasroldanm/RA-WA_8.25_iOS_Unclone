@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d മിനിറ്റിന് ശേഷം പ്രവർത്തനക്ഷമമാക്കപ്പെടും</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d മിനിറ്റിന് ശേഷം</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">ഈ ചാറ്റുകളിലെ മീഡിയ ഇല്ലാതാക്കുക</item>
+        <item quantity="one">ഈ ചാറ്റിലെ മീഡിയ ഇല്ലാതാക്കുക</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d കോണ്ടാക്‌ടുകൾ ഒഴിവാക്കി</item>
+        <item quantity="one">‎%d കോണ്ടാക്‌ട് ഒഴിവാക്കി</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">പേയ്‌മെന്റ് അക്കൌണ്ടിനെ കുറിച്ചോ ആക്‌റ്റിവിറ്റിയെ കുറിച്ചോ നിങ്ങൾക്ക് നിരവധി അറിയിപ്പുകളുണ്ട്.</item>
+        <item quantity="one">പേയ്‌മെന്റ് അക്കൌണ്ടിനെ കുറിച്ചോ ആക്‌റ്റിവിറ്റിയെ കുറിച്ചോ നിങ്ങൾക്ക് ഒരു അറിയിപ്പുണ്ട്.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ശ്രമങ്ങൾ ശേഷിക്കുന്നു</item>
+        <item quantity="one">‎%d ശ്രമം ശേഷിക്കുന്നു</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">അവശേഷിക്കുന്ന അപേക്ഷകൾ</item>
+        <item quantity="one">അവശേഷിക്കുന്ന അപേക്ഷ</item>
+    </plurals>
+</resources>

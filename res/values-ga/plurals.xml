@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Cumasaithe tar éis %d nóiméad</item>
+        <item quantity="one">Cumasaithe tar éis %d nóiméad amháin</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Tar éis %d nóiméad</item>
+        <item quantity="one">Tar éis %d nóiméad amháin</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Scrios meáin sna comhráite seo</item>
+        <item quantity="one">Scrios meáin sa chomhrá seo</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d teagmhálaí curtha as an áireamh</item>
+        <item quantity="two">‎%d theagmhálaí curtha as an áireamh</item>
+        <item quantity="few">‎%d theagmhálaí curtha as an áireamh</item>
+        <item quantity="many">‎%d dteagmhálaí curtha as an áireamh</item>
+    </plurals>
+</resources>

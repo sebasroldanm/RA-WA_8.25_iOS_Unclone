@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Включается по прошествии %d минут</item>
+        <item quantity="one">Включается по прошествии %d минуты</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">По прошествии %d минут</item>
+        <item quantity="one">По прошествии %d минуты</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Удалить медиа в этих чатах</item>
+        <item quantity="one">Удалить медиа в этом чате</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">Исключено контактов: %d</item>
+    </plurals>
+</resources>

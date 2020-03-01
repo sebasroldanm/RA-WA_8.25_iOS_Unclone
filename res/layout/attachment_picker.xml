@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.CircularRevealView android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/paper_clip_layout" android:background="@android:color/transparent" android:paddingBottom="12.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.kharis.Image.Rounded_1 android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip">
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/attach_picker_first_row" android:paddingTop="10.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+            <LinearLayout android:orientation="horizontal" android:id="@id/pickfiletype_camera_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground">
+                <com.kharis.Image.IconAttach android:id="@id/pickfiletype_camera" android:src="@drawable/attach_camera" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.kharis.Text.TextAttach android:textSize="18.0dip" android:layout_gravity="center_vertical" android:layout_marginLeft="16.0dip" android:text="@string/attach_camera" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="#77e9e9e9" android:layout_width="fill_parent" android:layout_height="0.20000005dip" />
+            <LinearLayout android:id="@id/pickfiletype_payment_holder" android:visibility="gone" style="@style/AttachPickerItem">
+                <com.whatsapp.payments.ui.PaymentsIconView android:textSize="24.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/pickfiletype_payment_text" android:background="@drawable/payment_attach_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:paddingTop="6.0dip" android:text="@string/payment" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/pickfiletype_gallery_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:foreground="?android:selectableItemBackground">
+                <com.kharis.Image.IconAttach android:id="@id/pickfiletype_gallery" android:src="@drawable/attach_gallery" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.kharis.Text.TextAttach android:textSize="18.0dip" android:layout_gravity="center_vertical" android:layout_marginLeft="16.0dip" android:text="@string/attach_picture_from_gallery" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="#77e9e9e9" android:layout_width="fill_parent" android:layout_height="0.20000005dip" />
+            <LinearLayout android:id="@id/pickfiletype_product_holder" android:visibility="gone" style="@style/AttachPickerItem">
+                <com.whatsapp.ThumbnailButton android:id="@id/pickfiletype_product" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.whatsapp.CondensedTextView android:text="@string/attach_product" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/pickfiletype_document_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:foreground="?android:selectableItemBackground">
+                <com.kharis.Image.IconAttach android:id="@id/pickfiletype_document" android:src="@drawable/attach_document" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.kharis.Text.TextAttach android:textSize="18.0dip" android:layout_gravity="center_vertical" android:layout_marginLeft="16.0dip" android:text="@string/attach_document" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="#77e9e9e9" android:layout_width="fill_parent" android:layout_height="0.20000005dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/attach_picker_second_row" android:paddingBottom="10.0dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">">
+"	<LinearLayout android:orientation="horizontal" android:id="@id/pickfiletype_location_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:foreground="?android:selectableItemBackground">
+                <com.kharis.Image.IconAttach android:id="@id/pickfiletype_location" android:src="@drawable/attach_location" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.kharis.Text.TextAttach android:textSize="18.0dip" android:layout_gravity="center_vertical" android:layout_marginLeft="16.0dip" android:text="@string/attach_location" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="#77e9e9e9" android:layout_width="fill_parent" android:layout_height="0.20000005dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/pickfiletype_contact_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:foreground="?android:selectableItemBackground">
+                <com.kharis.Image.IconAttach android:id="@id/pickfiletype_contact" android:src="@drawable/attach_contact" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.kharis.Text.TextAttach android:textSize="18.0dip" android:layout_gravity="center_vertical" android:layout_marginLeft="16.0dip" android:text="@string/attach_contact" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/pickfiletype_reminder_holder" android:visibility="gone" style="@style/AttachPickerItem">
+                <com.kharis.Image.IconAttach android:id="@id/pickfiletype_reminder" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+                <com.kharis.Text.TextAttach android:id="@id/attach_appointment_reminder_text" style="@style/AttachPickerLabel" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.kharis.Image.Rounded_1>
+    <com.kharis.Image.Rounded_1 android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="2.0dip" android:layout_marginBottom="2.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/pickfiletype_audio_holder" android:layout_width="fill_parent" android:layout_height="45.0dip" android:foreground="?android:selectableItemBackground">
+            <com.kharis.Image.IconAttach android:id="@id/pickfiletype_audio" android:src="@null" whatsapp:tbtnForegroundOnly="true" whatsapp:tbtnRadius="-1.0dip" style="@style/AttachPickerIcon" />
+            <com.kharis.Text.TextAttach android:textSize="24.0dip" android:layout_gravity="center_vertical" android:paddingBottom="2.0dip" android:text="@string/attach_audio" android:layout_centerVertical="true" style="@style/AttachPickerLabel" />
+        </LinearLayout>
+    </com.kharis.Image.Rounded_1>
+</com.whatsapp.CircularRevealView>

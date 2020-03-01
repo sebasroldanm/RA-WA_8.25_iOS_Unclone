@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">於 %d 分鐘後啟用</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d 分鐘後</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">刪除此對話中的媒體</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">不包括 %d 位聯絡人</item>
+    </plurals>
+</resources>

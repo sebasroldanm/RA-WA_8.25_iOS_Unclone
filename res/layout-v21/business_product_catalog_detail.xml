@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_frame" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.whatsapp.WaTextView android:textSize="@dimen/product_catalog_detail_text_size" android:textColor="@color/primary" android:gravity="center" android:layout_gravity="center" android:id="@id/loading_product_text" android:paddingLeft="@dimen/loading_spinner_text_padding" android:paddingTop="@dimen/loading_spinner_vertical_padding" android:paddingBottom="@dimen/loading_spinner_vertical_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/loading_spinner_container_height" />
+        <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/product_container" android:background="@color/primary_surface" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/catalog_product_status_stub" android:inflatedId="@id/catalog_product_status" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.whatsapp.biz.catalog.CatalogDetailImageView android:id="@id/catalog_detail_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <View android:layout_gravity="top" android:id="@id/product_status_elevation" android:background="@drawable/list_separator_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <com.whatsapp.InfoCard android:orientation="vertical" android:id="@id/product_detail_container" android:paddingLeft="@dimen/product_detail_container_padding_horizontal" android:paddingRight="@dimen/product_detail_container_padding_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:icBottomDrawable="@drawable/list_separator_top" app:icContentColor="@color/primary_surface">
+                    <View android:layout_width="fill_parent" android:layout_height="@dimen/product_margin_16dp" />
+                    <com.whatsapp.TextEmojiLabel android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/catalog_detail_title_color" android:id="@id/catalog_detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" />
+                    <com.whatsapp.WaTextView android:textSize="@dimen/product_catalog_detail_text_size" android:textColor="@color/catalog_detail_title_color" android:id="@id/catalog_detail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/product_margin_8dp" />
+                    <com.whatsapp.EllipsizedTextEmojiLabel android:textSize="@dimen/product_catalog_detail_text_size" android:textColor="@color/catalog_detail_description_color" android:id="@id/catalog_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" />
+                    <com.whatsapp.WaTextView android:textSize="@dimen/product_catalog_detail_text_size" android:textColor="@color/catalog_detail_link_color" android:id="@id/catalog_detail_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" />
+                    <com.whatsapp.WaTextView android:textSize="@dimen/product_catalog_detail_text_size" android:textColor="@color/catalog_detail_sku_color" android:id="@id/catalog_detail_sku" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" />
+                    <com.whatsapp.components.Button android:layout_gravity="center_horizontal" android:id="@id/message_btn" android:visibility="gone" android:layout_marginTop="@dimen/product_margin_8dp" android:layout_marginBottom="@dimen/product_margin_8dp" android:text="@string/catalog_product_message_biz" style="@style/WA.Button" />
+                    <View android:layout_width="fill_parent" android:layout_height="@dimen/product_margin_16dp" />
+                </com.whatsapp.InfoCard>
+                <View android:id="@id/divider" android:background="@color/chat_info_activity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/product_detail_divider_height" />
+                <com.whatsapp.CatalogMediaCard android:id="@id/product_message_catalog_media_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end|bottom|center" android:id="@id/catalog_product_fab_stub" android:inflatedId="@id/catalog_product_fab" android:layout_width="@dimen/fab_button_size" android:layout_height="@dimen/fab_button_size" android:layout_margin="@dimen/fab_button_margin" />
+    <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_top" />
+    <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/transition_clipper_bottom" />
+</FrameLayout>

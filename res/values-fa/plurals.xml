@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‏فعال شده بعد از %d دقیقه</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‏بعد از %d دقیقه</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">‏حذف رسانه از این گفتگوها</item>
+        <item quantity="one">‏حذف رسانه از این گفتگو</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‏%d مخاطب مستثنا شدند</item>
+        <item quantity="one">‏%d مخاطب مستثنا شد</item>
+    </plurals>
+</resources>

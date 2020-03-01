@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@android:id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fab="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.kharis.Image.background_IG android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="102.0dip" android:layout_marginTop="-2.0dip">
+            <com.nthoell.home.TextViewer android:layout_gravity="center|left|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-6.0dip">
+                <com.kharis.Text.TabText android:textSize="32.0sp" android:textStyle="bold" android:textColor="#ff000000" android:paddingLeft="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ra_chat" android:singleLine="true" style="@style/Theme.ActionBar.TitleTextStyle.Condensed" />
+            </com.nthoell.home.TextViewer>
+        </com.kharis.Image.background_IG>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+        <com.kharis.Image.background_IG3 android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="30.0dip">
+                <com.kharis.Text.TabText2 android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center|left" android:paddingLeft="20.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ra_broad" />
+                <com.kharis.menuju.broadcast android:layout_gravity="center|left" android:background="@drawable/selector_orange_gradient" android:layout_width="180.0dip" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.kharis.Text.TabText2 android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center|right" android:paddingRight="20.0dip" android:paddingBottom="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ra_group" />
+                <com.kharis.menuju.group android:layout_gravity="center|right" android:background="@drawable/selector_orange_gradient" android:layout_width="180.0dip" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <com.kharis.Image.Divider android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="0.5dip" android:src="#ffe9e9e9" />
+        </com.kharis.Image.background_IG3>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.nthoell.listview.ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" android:textFilterEnabled="true" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/conversations_list_divider" android:dividerHeight="0.5dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+            <com.whatsapp.yo.tf android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:gravity="center" android:id="@id/search_no_matches" android:paddingLeft="12.0dip" android:paddingTop="96.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:id="@id/banner_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tab_height" />
+            <FrameLayout android:id="@id/conversations_empty_no_contacts" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/conversations_empty_permission_denied" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/conversations_empty_nux" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.whatsapp.youbasha.ui.views.ConversationView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="59.0dip">
+                <com.whatsapp.youbasha.ui.views.FloatingActionsMenu android:layout_gravity="bottom|center|right" android:id="@id/multiple_actions" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.whatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_message" fab:fab_title="Message Number" style="@style/WA.FAB" />
+                    <com.whatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/design_ic_visibility_off" fab:fab_title="Last Seen" style="@style/WA.FAB" />
+                    <com.whatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_copy" fab:fab_title="Read Log" style="@style/WA.FAB" />
+                    <com.whatsapp.youbasha.ui.views.FloatingActionButton android:id="@id/action_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_all_media" fab:fab_title="YoMods" style="@style/WA.FAB" />
+                </com.whatsapp.youbasha.ui.views.FloatingActionsMenu>
+            </com.whatsapp.youbasha.ui.views.ConversationView>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

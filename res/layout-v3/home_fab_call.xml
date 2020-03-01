@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.whatsapp.youbasha.ui.views.FloatingActionsMenu android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.youbasha.ui.views.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_delete_call" android:onClick="FABClearcll" style="@style/WA.FAB" />
+    <com.whatsapp.youbasha.ui.views.FloatingActionButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_new_call" android:onClick="FABNewCll" style="@style/WA.FAB" />
+</com.whatsapp.youbasha.ui.views.FloatingActionsMenu>

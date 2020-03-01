@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d ਮਿੰਟਾਂ ਬਾਅਦ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ</item>
+        <item quantity="one">‎%d ਮਿੰਟ ਬਾਅਦ ਸਮਰੱਥ ਕੀਤਾ ਗਿਆ</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d ਮਿੰਟਾਂ ਬਾਅਦ</item>
+        <item quantity="one">‎%d ਮਿੰਟ ਬਾਅਦ</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">ਇਹਨਾਂ ਚੈਟਾਂ ਵਿੱਚੋਂ ਮੀਡੀਆ ਹਟਾਓ</item>
+        <item quantity="one">ਇਸ ਚੈਟ ਵਿੱਚੋਂ ਮੀਡੀਆ ਹਟਾਓ</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d ਸੰਪਰਕ ਬਾਹਰ ਰੱਖੇ ਗਏ</item>
+        <item quantity="one">‎%d ਸੰਪਰਕ ਬਾਹਰ ਰੱਖਿਆ ਗਿਆ</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">ਤੁਹਾਨੂੰ ਆਪਣੇ ਪੇਮੈਂਟ ਖਾਤੇ ਜਾਂ ਸਰਗਰਮੀ ਬਾਰੇ ਅਨੇਕ ਸੂਚਨਾਵਾਂ ਪ੍ਰਾਪਤ ਹੋਈਆਂ ਹਨ।</item>
+        <item quantity="one">ਤੁਹਾਨੂੰ ਆਪਣੇ ਪੇਮੈਂਟ ਖਾਤੇ ਜਾਂ ਸਰਗਰਮੀ ਬਾਰੇ ਇੱਕ ਸੂਚਨਾ ਪ੍ਰਾਪਤ ਹੋਈ ਹੈ।</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ਕੋਸ਼ਿਸ਼ਾਂ ਬਾਕੀ ਹਨ</item>
+        <item quantity="one">‎%d ਕੋਸ਼ਿਸ਼ ਬਾਕੀ ਹੈ</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">ਬਕਾਇਆ ਬੇਨਤੀਆਂ</item>
+        <item quantity="one">ਬਕਾਇਆ ਬੇਨਤੀ</item>
+    </plurals>
+</resources>

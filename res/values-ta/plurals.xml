@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d நிமிடங்கள் கழித்து இயக்கப்பட்டுள்ளது</item>
+        <item quantity="one">‎%d நிமிடம் கழித்து இயக்கப்பட்டுள்ளது</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d நிமிடங்கள் கழித்து</item>
+        <item quantity="one">‎%d நிமிடம் கழித்து</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">இந்த அரட்டைகளில் உள்ள ஊடகக்கோப்புகளை அழி</item>
+        <item quantity="one">இந்த அரட்டையில் உள்ள ஊடகக்கோப்புகளை அழி</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d தொடர்புகள் விலக்கப்பட்டன</item>
+        <item quantity="one">‎%d தொடர்பு விலக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">உங்கள் பணப்பரிவர்த்தனை கணக்கு அல்லது செயல்பாடு குறித்து உங்களுக்கு பல அறிவிப்புகள் உள்ளன.</item>
+        <item quantity="one">உங்கள் பணப்பரிவர்த்தனை கணக்கு அல்லது செயல்பாடு குறித்து உங்களுக்கு ஒரு அறிவிப்பு உள்ளது.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d முயற்சிகள் மீதமுள்ளன</item>
+        <item quantity="one">‎%d முயற்சி மீதமுள்ளது</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">நிலுவையிலுள்ள கோரிக்கைகள்</item>
+        <item quantity="one">நிலுவையிலுள்ள கோரிக்கை</item>
+    </plurals>
+</resources>

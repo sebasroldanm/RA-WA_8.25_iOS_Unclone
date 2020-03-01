@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d నిమిషాల తర్వాత ప్రారంభించబడింది</item>
+        <item quantity="one">‎%d నిమిషం తర్వాత ప్రారంభించబడింది</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d నిమిషాల తర్వాత</item>
+        <item quantity="one">‎%d నిమిషం తర్వాత</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">ఈ చాట్స్‌లో మీడియాను తొలగించు</item>
+        <item quantity="one">ఈ చాట్‌లో మీడియాను తొలగించు</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d కాంటాక్ట్‌లు మినహాయించబడినవి</item>
+        <item quantity="one">‎%d కాంటాక్ట్ మినహాయించబడింది</item>
+    </plurals>
+    <plurals name="notification_new_payment_method_update">
+        <item quantity="other">మీ చెల్లింపుల ఖాతా లేదా కార్యకలాపం గురించి మీకు పలు నోటిఫికేషన్లు ఉన్నాయి.</item>
+        <item quantity="one">మీ చెల్లింపుల ఖాతా లేదా కార్యకలాపం గురించి మీకు ఒక నోటిఫికేషన్ ఉంది.</item>
+    </plurals>
+    <plurals name="payment_pin_retry_attempts">
+        <item quantity="other">‎%d ప్రయత్నాలు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">‎%d ప్రయత్నం మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="payments_settings_payment_requests">
+        <item quantity="other">పెండింగ్‌లో ఉన్న అభ్యర్థనలు</item>
+        <item quantity="one">పెండింగ్‌లో ఉన్న అభ్యర్థన</item>
+    </plurals>
+</resources>

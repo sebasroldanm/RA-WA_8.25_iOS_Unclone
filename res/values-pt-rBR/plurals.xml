@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">Ativado após %d minutos</item>
+        <item quantity="one">Ativado após %d minuto</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">Após %d minutos</item>
+        <item quantity="one">Após %d minuto</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Apagar os arquivos de mídia destas conversas</item>
+        <item quantity="one">Apagar os arquivos de mídia desta conversa</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d contatos excluídos</item>
+        <item quantity="one">‎%d contato excluído</item>
+    </plurals>
+</resources>

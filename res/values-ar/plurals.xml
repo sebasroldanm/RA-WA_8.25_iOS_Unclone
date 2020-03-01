@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‏تم تمكينه بعد %d دقيقة</item>
+        <item quantity="zero">‏تم تمكينه بعد %d من الدقائق</item>
+        <item quantity="one">‏تم تمكينه بعد دقيقة %d</item>
+        <item quantity="two">‏تم تمكينه بعد دقيقتين %d</item>
+        <item quantity="few">‏تم تمكينه بعد %d دقائق</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‏بعد %d دقيقة</item>
+        <item quantity="one">‏بعد دقيقة %d</item>
+        <item quantity="two">‏بعد دقيقتين %d</item>
+        <item quantity="few">‏بعد %d دقائق</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">‏حذف الوسائط الخاصة بهذه الدردشات</item>
+        <item quantity="zero">‏حذف الوسائط الخاصة بهذه الدردشة</item>
+        <item quantity="one">‏حذف الوسائط الخاصة بهذه الدردشة</item>
+        <item quantity="two">‏حذف الوسائط الخاصة بهاتين الدردشتين</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‏%d جهة اتصال مستثناة</item>
+        <item quantity="zero">‏%d من جهات الاتصال المستثناة</item>
+        <item quantity="one">‏جهة اتصال %d مستثناة</item>
+        <item quantity="two">‏جهتا اتصال مستثنتان %d</item>
+        <item quantity="few">‏%d جهات اتصال مستثناة</item>
+    </plurals>
+</resources>

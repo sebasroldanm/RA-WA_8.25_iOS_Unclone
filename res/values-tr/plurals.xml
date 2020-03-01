@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="app_auth_enabled_values">
+        <item quantity="other">‎%d dakika sonra etkinleştirildi</item>
+    </plurals>
+    <plurals name="app_auth_timeout_values">
+        <item quantity="other">‎%d dakika sonra</item>
+    </plurals>
+    <plurals name="delete_medias">
+        <item quantity="other">Bu sohbetlerdeki medyaları sil</item>
+        <item quantity="one">Bu sohbetteki medyaları sil</item>
+    </plurals>
+    <plurals name="group_add_blacklist_contacts_excluded">
+        <item quantity="other">‎%d kişi hariç bırakıldı</item>
+    </plurals>
+</resources>
